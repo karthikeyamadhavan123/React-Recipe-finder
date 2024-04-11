@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #405DE6;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+  }
+  
+  .email, .pass,.User,.ooo {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .hel {
+    color: #405DE6;
+    text-decoration: none;
+  }
+
+  #verify,#verif{
+    color: red;
+    font-size: 10px;
+  }

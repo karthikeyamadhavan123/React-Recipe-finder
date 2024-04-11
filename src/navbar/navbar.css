@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+}
+#a{
+    width: 60px;
+    height: 66px;
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+.link{
+text-decoration: none;
+color: black;
+}
+.link:hover{
+    background-color: rgb(178, 171, 171);
+    border-radius: 25px;
+}
+#pin{
+    font-size: 40px;
+    font-weight: 320;
+}
+
+li{
+    list-style-type: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#b{
+    width: 250px;
+    height: 170px;
+}

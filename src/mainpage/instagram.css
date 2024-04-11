@@ -1,0 +1,40 @@
+/* Instagram.css */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 71%;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .recipe{
+    width: 100px;
+    height: 100px;
+  }
+  .finder{
+    text-decoration: none;
+  }

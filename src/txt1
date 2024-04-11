@@ -1,0 +1,21 @@
+   const fetchdata=async ()=>{
+    const axios = require('axios');
+
+const options = {
+  method: 'GET',
+  url: 'https://imdb8.p.rapidapi.com/auto-complete',
+  params: {q: 'game of thr'},
+  headers: {
+    'X-RapidAPI-Key': '7010b3bac5msh43d4aaa4a487e54p108959jsn0b217a0459fd',
+    'X-RapidAPI-Host': 'imdb8.p.rapidapi.com'
+  }
+};
+
+try {
+	const response = await axios.request(options);
+	console.log(response.data);
+} catch (error) {
+	console.error(error);
+}
+
+  }
